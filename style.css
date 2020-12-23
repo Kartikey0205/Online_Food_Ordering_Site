@@ -19,6 +19,8 @@ background-color: rgb(0, 0, 0);
     position: absolute;
     /* background: url("img/bg.jpg") no-repeat center center/cover; */
     height: 30vh;
+    top: 0px;
+    left: 0px;
     width: 100vw;
     z-index: -1;
     opacity: 0.424;
@@ -92,7 +94,9 @@ display: block;
     content: "";;
     background: url("img/background/bg.jpg") no-repeat center center/cover;
     position: absolute;
-    height: 88vh;
+    height: 550px;
+    top: 0px;
+    left: 0px;
     width: 100vw;
     z-index: -1;
     opacity: 0.957619;
@@ -134,7 +138,7 @@ display: block;
 /*Services*/
 .Services h1{
     text-align: center;
-    margin:11rem 0rem 6rem 0rem;
+    margin:11rem 0rem 1rem 0rem;
     /* padding: 1.3rem; */
 
 }
@@ -143,14 +147,118 @@ display: block;
     display: flex;
 }
 #service_provide .box{
-   margin: 0px 20px;
+/* height: 20vh; */
+    margin: 0px 20px;
    padding: 20px;
     border: 2px solid brown;
+    border-radius: 30px;
 }
 #service_provide .box img{
    /* height: 25vh; */
-   height: 150px;
+   height: 125px;
    display: block;
    margin: auto;
+
+}
+
+#service_provide .box .heading_inside{
+text-align: center;
+padding: 5px;
+margin: 1px;
+}
+
+/* Client Section */
+#client_section{
+    height: 344px;
+    position: relative;
+}
+#client_section::before{
+    content: " ";
+    position: absolute;
+    background: url("img/background/client.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.694;
+}
+#client_section h1{
+    text-align: center;
+    margin:5rem 0rem 1rem 0rem;
+    /* padding: 1.3rem; */
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+#clients .client_name{
+    /* border: 2px solid rgb(199, 27, 199); */
+    padding: 2px;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+#clients .client_name img{
+    /* border: 2px solid black; */
+    padding: 2px;
+    margin: 2px;
+    border-radius: 3rem;
+    height:10rem;
+}
+
+/* Contact form  */
+#contact h1{
+    text-align: center;
+    margin:0rem 0rem 1rem 0rem;
+}
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url("img/contact/contact.jpg")no-repeat center center/cover;
+}
+
+#contact_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+
+#contact_box input,#contact_box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.4rem;
+}
+#contact_box form{
+    width: 40%;
+}
+#contact_box label{
+    font-size: 1.4rem;
+    font-style: oblique;
+    font-family: cursive;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+footer .heading{
+    text-align: center;
+    font-size: 1rem;
+    padding: 2px;
+    text-shadow: 1px 1px 0px rgb(219, 36, 91);
 
 }
