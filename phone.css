@@ -4,10 +4,10 @@ flex-direction: column;
 }
 
 #navbar::before{
-    height: 23vh;
+    height: 111px;
 }
 /* Responsive home */
-#home{
+#home li a{
 /* height: 467px; */
 }
 #home::before{

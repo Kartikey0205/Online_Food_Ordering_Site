@@ -38,8 +38,8 @@ background-color: rgb(0, 0, 0);
 
 }
 #logo img{
-    height: 43px;
-    border-radius: 49rem 48rem;
+    height: 36px;
+    border-radius: 48rem 48rem;
     padding: 3px;
 }
 
@@ -51,7 +51,7 @@ background-color: rgb(0, 0, 0);
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 10px 0px;    
+    /* margin: 10px 0px;     */
 }
 .home li{
     list-style: none;
@@ -69,7 +69,7 @@ display: block;
 
     text-decoration: none;
     color: white;
-    padding: 0px 1.6rem;
+    padding: 0px 8px;
     transition: color 1s ease-in 0s ;   
 }
 .home li a:hover{
@@ -116,7 +116,7 @@ height: 467px;
 
 .heading{
     padding: 12px;
-    font-family: cursive;
+    font-family: 'Boogaloo', cursive;
     font-size: 2rem;
     text-shadow: 2px 2px 0px rgb(219, 155, 36);
 }
@@ -224,8 +224,10 @@ margin: 1px;
 }
 #clients .client_name{
     /* border: 2px solid rgb(199, 27, 199); */
-    padding: 2px;
+    /* padding: 2px;
     margin: 1rem;
+    border-radius: 2rem; */
+    margin: 0.4rem;
     border-radius: 2rem;
 }
 #clients .client_name img{
@@ -235,9 +237,9 @@ margin: 1px;
     border-radius: 3rem;
     height:9rem;
 }
-#clients .client_name img:hover{
+/* #clients .client_name img:hover{
     transform: scale(1.1);
-}
+} */
 
 /* Contact form  */
 #contact h1{
@@ -279,12 +281,12 @@ margin: 1px;
 #contact_box label{
     font-size: 1.4rem;
     font-style: oblique;
-    font-family: cursive;
+    font-family: 'Sedgwick Ave', cursive;
 }
 #contact_box .form_group button{
     font-size: 1.4rem;
     font-style: oblique;
-    font-family: cursive;
+    font-family: 'Boogaloo', cursive;
     margin: auto;
     display: block;
     border-radius: 15px;
