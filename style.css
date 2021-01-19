@@ -3,12 +3,16 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* .bg-dark{
+    background-color: #0000005c;
+} */
 html{
     scroll-behavior: smooth;
 }
 
 /* Navigation menu */
-#navbar{
+#navbar1{
     align-items: center;
     display: flex; 
   flex-wrap: wrap;   
@@ -16,10 +20,11 @@ html{
     top: 0px;
     /* y positon relative hmne kvl navbar ko backrougnd fix krne ko diya h */
 }
-#navbar::before{
+#navbar1::before{
     content: "";;
     /* background-color: rgb(44 193 22 / 90%); */
 background-color: rgb(0, 0, 0);
+/* background-color: #0000005c; */
     position: absolute;
     /* background: url("img/bg.jpg") no-repeat center center/cover; */
     height: 13vh;
@@ -45,7 +50,7 @@ background-color: rgb(0, 0, 0);
 
 /* LOGO OTHER */
 
-.home{
+.home1{
     /* border: 2px solid green; */
     display: flex;
     align-items: center;
@@ -53,7 +58,7 @@ background-color: rgb(0, 0, 0);
     flex-wrap: wrap;
     /* margin: 10px 0px;     */
 }
-.home li{
+.home1 li{
     list-style: none;
     font-size: 1.2rem;
     font-family: sans-serif;
@@ -61,7 +66,7 @@ background-color: rgb(0, 0, 0);
     text-shadow: 2px -2px 1px red;  
 }
 
-.home li a{
+.home1 li a{
 
     /* extra */
 display: block;
@@ -72,7 +77,7 @@ display: block;
     padding: 0px 8px;
     transition: color 1s ease-in 0s ;   
 }
-.home li a:hover{
+.home1 li a:hover{
        color: black;
         background-color: white;
     
@@ -85,7 +90,8 @@ display: block;
     margin: 0rem auto;
     /* height: 275px; */
 
-height: 467px;
+/* height: 467px; */
+height: 679px;
 
     padding: 1rem 1rem;
     /* border: 2px solid red; */
@@ -103,7 +109,8 @@ height: 467px;
     background: url("img/background/bg.jpg") no-repeat center center/cover;
     position: absolute;
     /* height: 550px; */
-    height: 619px;
+    /* height: 619px; */
+height: 836px;
 
     top: 0px;
     left: 0px;
@@ -129,7 +136,7 @@ height: 467px;
    padding: 0.5rem;
    color: rgb(0, 0, 0);
 }
-.btn{
+.btn2{
     border-radius: 3rem;
     font-size: 1.5rem;
     margin: 10px;
@@ -140,7 +147,7 @@ height: 467px;
     cursor: pointer;
     background-color: pink;
 }
-.btn:hover{
+.btn2:hover{
     background-color: coral;
    
 }

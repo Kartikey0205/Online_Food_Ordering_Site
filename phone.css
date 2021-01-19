@@ -1,52 +1,52 @@
 /* Responsive Navbar */
-#navbar{
-flex-direction: column;
-}
-
-#navbar::before{
-    height: 111px;
-}
-/* Responsive home */
-#home li a{
-/* height: 467px; */
-}
-#home::before{
-    /* height: 619px; */
+#navbar1{
+    flex-direction: column;
+    }
     
-
-}
-/* Responsive services */
-#Services{
-    /* display: flex; */
-
-}
-#service_provide{
-
-
-flex-direction: column;
-}
-#Services .box{
-    padding: 18px;
-    margin: 17px 50px;
-
-}
-/* Responsive client */
-#client_section{
-
-}
-#clients{
-/* overflow: hidden; */
-flex-wrap: wrap;
-}
-#clients img{
-width: 9rem;
-padding: 2px 5px;
-}
-/* Responsive contact */
-#contact_box form{
-width: 80%;
-}
-/* Responsive footer */
-footer{
-
-}
+    #navbar1::before{
+        height: 111px;
+    }
+    /* Responsive home */
+    #home li a{
+    /* height: 467px; */
+    }
+    #home::before{
+        /* height: 619px; */
+        
+    
+    }
+    /* Responsive services */
+    #Services{
+        /* display: flex; */
+    
+    }
+    #service_provide{
+    
+    
+    flex-direction: column;
+    }
+    #Services .box{
+        padding: 18px;
+        margin: 17px 50px;
+    
+    }
+    /* Responsive client */
+    #client_section{
+    
+    }
+    #clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    }
+    #clients img{
+    width: 9rem;
+    padding: 2px 5px;
+    }
+    /* Responsive contact */
+    #contact_box form{
+    width: 80%;
+    }
+    /* Responsive footer */
+    footer{
+    
+    }
